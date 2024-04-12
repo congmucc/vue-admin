@@ -47,16 +47,23 @@ onMounted(() => {
           position: 'inside',
           color: 'white',
         },
-
+        emphasis: {
+          label: {
+            show: true,
+            fontSize: 20,
+            fontWeight: 'bold',
+          },
+        },
         labelLine: {
           show: false,
         },
         data: [
-          { value: 1048, name: '军事' },
-          { value: 735, name: '新闻' },
-          { value: 580, name: '直播' },
-          { value: 484, name: '娱乐' },
-          { value: 300, name: '财经' },
+          { value: 1048, name: '10岁以下' },
+          { value: 735, name: '10-18岁' },
+          { value: 580, name: '18-30岁' },
+          { value: 484, name: '30-40岁' },
+          { value: 300, name: '40-60岁' },
+          { value: 200, name: '60岁以上' },
         ],
       },
     ],

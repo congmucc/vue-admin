@@ -13,7 +13,7 @@
       <span v-for="(item, index) in people" :key="index">{{ item }}</span>
     </div>
     <!-- 盒子将来echarts展示图形图标的节点 -->
-    <div class="charts" ref="charts">123</div>
+    <div class="charts" ref="charts"></div>
   </div>
 </template>
 
@@ -42,7 +42,7 @@ onMounted(() => {
     //系列:决定你展示什么样的图形图标
     series: {
       type: 'liquidFill', //系列
-      data: [0.6, 0.4, 0.2], //展示的数据
+      data: [0.6], //展示的数据
       waveAnimation: true, //动画
       animationDuration: 3,
       animationDurationUpdate: 0,

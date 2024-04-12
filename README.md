@@ -16,6 +16,8 @@
     </a>
 </p>
 
+## 项目笔记地址
+
 ## 使用仓库相关命令
 
 ### 安装 pnpm
@@ -36,8 +38,5 @@ pnpm install
 pnpm run dev
 ```
 
-### 打包
 
-```
-pnpm run build
-```
+
