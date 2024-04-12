@@ -18,6 +18,8 @@
 
 ## 项目笔记地址
 
+[Learning_Note/02-Code/项目笔记/前端项目笔记/前端项目笔记.md at main · congmucc/Learning_Note (github.com)](https://github.com/congmucc/Learning_Note/blob/main/02-Code/项目笔记/前端项目笔记/前端项目笔记.md)
+
 ## 使用仓库相关命令
 
 ### 安装 pnpm

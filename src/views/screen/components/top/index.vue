@@ -4,7 +4,7 @@
       <span class="lbtn" @click="goHome">首页</span>
     </div>
     <div class="center">
-      <div class="title">智慧旅游可视化大数据平台</div>
+      <div class="title">数据大屏</div>
     </div>
     <div class="right">
       <span class="rbtn">统计报告</span>
@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-//@ts-ignore
+//@ts-expect-error
 import moment from 'moment'
 //点击首页按钮回到首页
 import { useRouter } from 'vue-router'
